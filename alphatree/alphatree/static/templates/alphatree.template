@@ -22,10 +22,10 @@
 		<div id="miscMain" class="w3-container w3-center">
 			<div class='foo w3-row-padding w3-mobile'>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic1-thumb.png" alt='' class='w3-round-large w3-center'>
+					<img src="./static/images/pic2-thumb.png" alt='' class='w3-round-large w3-center'>
 				</div>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic2-thumb.png" alt='' class='w3-round-large w3-center'>
+					<img src="./static/images/pic1-thumb.png" alt='' class='w3-round-large w3-center'>
 				</div>
 			</div>
 			<span class="w3-padding" ></span>

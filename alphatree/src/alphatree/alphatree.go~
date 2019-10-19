@@ -47,11 +47,22 @@ func main() {
 */
 
 func main() {
-	port := ":" + os.Getenv("PORT")
+
+	
 	r := mux.NewRouter()
-	s := r.PathPrefix("/static").Subrouter()
+//	s := r.PathPrefix("/static").Subrouter()
 	r.HandleFunc("/alphatree", ShowMain)
-	s.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
-	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
+//	s.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
+	r.PathPrefix("/static").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
+
+
+
+	raw_port := os.Getenv("PORT")
+	var port string
+	if raw_port != "" {
+		port =  ":" + raw_port
+	} else {
+		port = ":80"	
+	}
 	http.ListenAndServe(port, (r))
 }

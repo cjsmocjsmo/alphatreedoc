@@ -64,11 +64,9 @@
 					<div class='w3-col s4'>
 						<a href="https://m.facebook.com/profile.php?id=100013685105910&tsid=0.522658644817887&source=typeahead"><img src="./static/images/facebook-black-clear.png" alt='' class='w3-round-large w3-center' style="width: 25%" ></a>
 					</div>
-					
 					<div class='w3-col s4'>
 						<img src="./static/images/alphalogo-100x100.png" alt='' class='w3-round-large w3-center' style="width: 50%" >
 					</div>
-					
 					<div class='w3-col s4'>
 						<a href="mailto:alpha.treeservicecdm@gmail.com"><img src="./static/images/gmail-black-clear.png" alt='' class='w3-round-large w3-center' style="width: 26%"></a>
 					</div>

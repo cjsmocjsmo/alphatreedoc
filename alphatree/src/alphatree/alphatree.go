@@ -1,7 +1,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////
 // LICENSE: GNU General Public License, version 2 (GPLv2)
-// Copyright 2016, Charlie J. Smotherman
+// Copyright 2019, Charlie J. Smotherman
 //
 // This program is free software; you can redistribute it and/or
 // modify it under the terms of the GNU General Public License v2
@@ -35,28 +35,10 @@ func ShowMain(w http.ResponseWriter, r *http.Request) {
 	tmpl.Execute(w, tmpl)
 }
 
-/*
 func main() {
 	r := mux.NewRouter()
-	s := r.PathPrefix("/static").Subrouter()
 	r.HandleFunc("/alphatree", ShowMain)
-	s.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
-	r.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir("/media/"))))
-	http.ListenAndServe(":80", (r))
-}
-*/
-
-func main() {
-
-	
-	r := mux.NewRouter()
-//	s := r.PathPrefix("/static").Subrouter()
-	r.HandleFunc("/alphatree", ShowMain)
-//	s.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
 	r.PathPrefix("/static").Handler(http.StripPrefix("/", http.FileServer(http.Dir(""))))
-
-
-
 	raw_port := os.Getenv("PORT")
 	var port string
 	if raw_port != "" {

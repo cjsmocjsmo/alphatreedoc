@@ -31,29 +31,29 @@
 			<span class="w3-padding" ></span>
 			<div class='foo w3-row-padding w3-mobile'>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic7-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+					<img src="./static/images/pic7_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
 				</div>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic8-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
-				</div>
-			</div>			
-			<span class="w3-padding" ></span>
-			<div class='foo w3-row-padding w3-mobile'>
-				<div class='w3-col s6'>
-					<img src="./static/images/pic17-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
-				</div>
-				<div class='w3-col s6'>
-					<img src="./static/images/pic18-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+					<img src="./static/images/pic8_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
 				</div>
 			</div>			
 			<span class="w3-padding" ></span>
 			<div class='foo w3-row-padding w3-mobile'>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic13-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+					<img src="./static/images/pic17_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+				</div>
+				<div class='w3-col s6'>
+					<img src="./static/images/pic18_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+				</div>
+			</div>			
+			<span class="w3-padding" ></span>
+			<div class='foo w3-row-padding w3-mobile'>
+				<div class='w3-col s6'>
+					<img src="./static/images/pic13_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
 					
 				</div>
 				<div class='w3-col s6'>
-					<img src="./static/images/pic14-thumb.png" alt='' class='w3-round-large w3-center w3-padding-small'>
+					<img src="./static/images/pic14_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
 				</div>
 			</div>			
 			<span class="w3-padding" ></span>

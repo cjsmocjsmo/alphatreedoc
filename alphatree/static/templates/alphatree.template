@@ -46,7 +46,6 @@
 			<div class='foo w3-row-padding w3-mobile'>
 				<div class='w3-col s6'>
 					<img src="./static/images/pic13_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
-					
 				</div>
 				<div class='w3-col s6'>
 					<img src="./static/images/pic14_150.png" alt='' class='w3-round-large w3-center w3-padding-small'>
